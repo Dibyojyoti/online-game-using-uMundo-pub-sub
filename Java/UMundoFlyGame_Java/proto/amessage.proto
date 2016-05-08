@@ -1,0 +1,13 @@
+option java_package = "org.umundo.protobuf";
+
+message AMessage {
+	optional string username = 5;
+	optional string message = 1;
+	optional string flycordx = 4;
+	optional string flycordy = 3;
+	optional int32 score = 6;
+	optional int32 x = 7;
+	optional int32 y = 8;
+	optional int32 type = 2;
+}
+

@@ -1,0 +1,13 @@
+option java_package = "org.umundo.protobuf";
+
+message ChatMsg {
+	optional string username = 8;
+	optional string message = 1;
+	optional string flycordx = 2;
+	optional string flycordy = 3;
+	optional int32 score = 4;
+	optional int32 x = 5;
+	optional int32 y = 6;
+	optional int32 type = 7;
+}
+
